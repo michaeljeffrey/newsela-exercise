@@ -95,7 +95,7 @@ If I had more time, the following improvements are what I would do/consider:
    collision within AWS and provides clarity to what the bucket actually is
 - Configure Terraform backends so as not use local state-files, but instead use a versioned S3 bucket and use state-file locking to prevent conflicts
 - Consider locking module in stack/main.tf to tagged version in GitHub
-- Configure the WAF to be more robust.  The WAF configuration here is an example to build from
+- Configure the WAF to be more robust.  The WAF configuration here is an example to built from
 - Configure CloudWatch monitoring
 - Cloudfront distribution configuration is boiler-plate.  It should be tweaked to suit needs
 - More comments in code and better documentation
