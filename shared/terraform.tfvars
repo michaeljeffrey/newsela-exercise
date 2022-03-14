@@ -1,1 +1,1 @@
-zone = "chunklight.com"
+zone = "newsela.com"
